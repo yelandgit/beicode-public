@@ -10,7 +10,7 @@
 namespace beicode
 {
 	BEICODE_EXPORT
-	void test_proc(const char* s) { printf("beicode::test = %s\n",s); }
+	void test_proc(const char* s) { printf("beicode::public = %s\n",s); }
 
 	//BEICODE_EXPORT
 	//Utf8CodeUnitKind utf8_code_unit_kind(unsigned char code_unit) noexcept;
